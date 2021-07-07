@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "airbnb-base"
+  ],
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true
+  },
+  "settings": {
+    "import/resolver": {
+      "jest": {
+        "jestConfigFile": "./jest.conf.js"
+      }
+    }
+  },
+  "rules": {
+    "semi": 0,
+    "no-param-reassign": "warn",
+    "padded-blocks": "warn",
+    "max-len": [
+      "error",
+      {
+        "code": 120
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>POC Redux Subscribe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="dist/css/bundle.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="counter-a" class="counter-wrapper">
+        <span class="label">A</span>
+        <p class="value">0</p>
+        <div class="led-box">
+          <div class="led led-yellow"></div>
+        </div>
+      </div>
+      <div id="counter-b" class="counter-wrapper">
+        <span class="label">B</span>
+        <p class="value">0</p>
+        <div class="led-box">
+          <div class="led led-red"></div>
+        </div>
+      </div>
+      <div class="buttons-wrapper">
+        <button id="inca">Inc A</button>
+        <button id="incb">Inc B</button>
+      </div>
+      <div class="log"></div>
+    </div>
+    <script src="js/bundle.js"></script>
+  </body>
+</html>

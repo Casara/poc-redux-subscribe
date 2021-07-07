@@ -1,0 +1,22 @@
+# ide or editors files
+.idea
+.vscode
+*.iml
+
+# striker files
+.stryker-tmp
+reports
+
+# object files
+node_modules
+
+# target
+coverage/
+
+#stryker
+.stryker-tmp/
+.stryker.log
+
+*.iml
+
+.Ds_Store

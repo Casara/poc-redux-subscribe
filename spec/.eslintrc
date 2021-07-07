@@ -1,0 +1,32 @@
+{
+  "extends": [
+    "airbnb-base",
+    "plugin:jest/recommended"
+  ],
+  "env": {
+    "jest": true
+  },
+  "plugins": [
+    "jest"
+  ],
+  "rules": {
+    "import/first": "warn",
+    "class-methods-use-this": "warn",
+    "padded-blocks": "warn",
+    "semi": 0
+  },
+  "settings": {
+    "import/resolver": {
+      "jest": {
+        "jestConfigFile": "./jest.conf.js"
+      },
+      "node": {
+        "extensions": [
+          ".js",
+          ".json",
+          ".vue"
+        ]
+      }
+    }
+  }
+}
